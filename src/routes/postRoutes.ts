@@ -3,7 +3,7 @@ import {
   getPostsHandler,
   getPostHandler,
   storePostHandler,
-} from "../controllers/post";
+} from "../controllers/postController";
 
 const router = express.Router();
 

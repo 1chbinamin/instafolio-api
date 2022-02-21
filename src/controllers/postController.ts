@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { index, find, store } from "../services/post";
+import { index, find, store } from "../services/postService";
 
 export const getPostsHandler = async (req: Request, res: Response) => {
   try {
